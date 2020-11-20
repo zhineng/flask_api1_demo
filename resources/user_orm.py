@@ -6,6 +6,10 @@ from flask import jsonify
 import traceback #印出錯誤訊息
 from server import db
 from models import UserModel
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
 
 
 
